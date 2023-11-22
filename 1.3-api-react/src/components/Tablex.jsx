@@ -11,7 +11,8 @@ import {
   TableCaption,
   TableContainer,
 } from "@chakra-ui/react";
-import { Button, ButtonGroup } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
+import axios from "axios";
 
 function Tablex() {
   let [datas, setDatas] = useState([]);
@@ -22,8 +23,13 @@ function Tablex() {
         return setDatas(data);
       });
   }, []);
-  function handleEdit() {
-    axios.delete("https://northwind.vercel.app/api/products")
+  const handleDelet = async ({id}) => {
+    try {
+      const response = await axios.delete(`https://northwind.vercel.app/api/products/${id}`);
+      console.log(response.data);
+   } catch (error) {
+      console.error(error);
+   }
   }
   return (
     <React.Fragment>

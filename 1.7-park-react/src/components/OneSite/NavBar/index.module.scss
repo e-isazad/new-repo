@@ -1,0 +1,75 @@
+#tabBox {
+  ul {
+    li {
+      list-style: none;
+      background-color: red;
+      width: 33%;
+      padding: 39px 20px;
+      color: #fff;
+      text-align: center;
+      font-size: 28px;
+      display: inline-block;
+      border-left: 1px solid black;
+      transition: .4s linear;
+      &:hover{
+        background-color: darkred;
+      }
+      span {
+        font-size: 68px;
+        position: relative;
+        top: 0.4cm;
+      }
+    }
+  }
+  .icons {
+    margin-bottom: 2cm;
+    .icon1 {
+        width: 500px;
+        text-align: center;
+        span{
+            color: blue;
+            text-align: center;
+            font-size: 42px;
+        }
+        small{
+            color: gray;
+        }
+      .selectt {
+        select {
+          border: 1px solid gray;
+          border-radius: 12px;
+          padding: 7px 12px;
+        }
+      }
+    }
+  }
+}
+#footer{
+    margin: 0 auto;
+  border-top: 5px solid orange;
+  h4{
+    text-align: center;
+  }
+  #footerBox{
+    border: 3px solid orange;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 1cm;
+    
+    p{
+        color: gray;
+    }
+  }
+  .next{
+    color: gray;
+    padding: 12px 22px;
+    border: 2px solid gray;
+    display: inline-block;
+    position: relative;
+    top: -3cm;
+    left: 22cm;
+  }
+}
+
