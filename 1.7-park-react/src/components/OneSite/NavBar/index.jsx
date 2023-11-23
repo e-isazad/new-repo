@@ -64,6 +64,7 @@ const NavBarx = () => {
       </div>
       <div className={style.next}>Forward <FontAwesomeIcon icon={faArrowRight} /></div>
       </section>
+      
     </React.Fragment>
   );
 };
