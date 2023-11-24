@@ -20,7 +20,8 @@ function Registerr() {
    
    })
   
-  
+  setValue1('')
+  setValue2('')
   }
 
   return (
@@ -55,7 +56,7 @@ function Registerr() {
               },
             ]}
           >
-            <Input
+            <Input min={5} max={99}
               onChange={(e) => {
                 setValue1( e.target.value);
               }}
@@ -67,12 +68,13 @@ function Registerr() {
             name="password"
             rules={[
               {
+                min:7,
                 required: true,
                 message: "Please input your password!",
               },
             ]}
           >
-            <Input.Password onChange={(e)=>{
+            <Input.Password minLength={7} maxLength={22} onChange={(e)=>{
                 setValue2(e.target.value)
             }} />
           </Form.Item>
@@ -98,7 +100,7 @@ function Registerr() {
                 handleSubmit(e)
                 
             }} type="primary" htmlType="submit">
-              Submit
+              Register
             </Button>
           </Form.Item>
         </Form>

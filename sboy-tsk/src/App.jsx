@@ -1,12 +1,11 @@
 import React from 'react'
 import './App.css'
-import Hava from './components/Hava'
-
+import MyComponent from './components/Tranitation'
 function App() {
 
   return (
    <React.Fragment>
-   <Hava/>
+   <MyComponent/>
    </React.Fragment>
   )
 }

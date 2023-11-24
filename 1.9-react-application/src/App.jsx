@@ -1,15 +1,12 @@
 import React from 'react'
 import './App.css'
-// import Cardsx from './components/Cards'
-// <Cardsx/>
-
-import NavBar from './components/Navbar'
+import Todo from './components/Toto'
 
 function App() {
 
   return (
     <React.Fragment>
-      <NavBar/>
+      <Todo/>
     </React.Fragment>
   )
 }
