@@ -1,0 +1,27 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Car",
+            "Marka":"BMW ",
+            "Model":"E60 M5",
+            "Il":"2021",
+            "Muherrik":"2.5L/218a.g.",
+            "SuretlerQutusu":"Avtomat",
+            "Price": "10000",
+            "Yanacaqnovu":"Benzin",
+            "img":"https://www.avantgardewheels.com/wp-content/uploads/2021/08/BTG713O.jpg"
+          },  {
+            "id": 2,
+            "name": "Car",
+            "Marka":"Lexus",
+            "Model":"ES 300h",
+            "Il":"2021",
+            "Muherrik":"2.5L/218a.g.",
+            "Suretler qutusu":"Avtomat",
+            "Price": "53 800 USD",
+            "Yanacaq novu":"Benzin",
+            "img":"https://cars.usnews.com/static/images/Auto/custom/15090/2023_Lexus_ES_Hybrid_Angular_Front_1.jpg"
+          }
+    ]
+  }
