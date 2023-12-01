@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .leftBox{
+        width: 40%;
+        display: inline-block;
+        background-color: skyblue;
+        img{
+        width: 200px;
+        margin: 50px 200px;
+        border-radius: 10px;
+        }
+    
+    }
+    .rightBox{
+        width: 40%;
+        height: 50vh;
+        border: 1px solid black;
+        display: inline-block;
+    }
+}
